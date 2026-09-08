@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>슬슬 개인정보처리방침</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&display=swap">
+<style>
+  :root {
+    --ground: #e6e2d8; --card: #faf8f2; --ink: #2f2c26; --muted: #7a746a;
+    --line: #a09889; --accent: #3d3830;
+  }
+  :root:not([data-theme="light"]) {
+    @media (prefers-color-scheme: dark) {
+      --ground: #1b1a17; --card: #262420; --ink: #ece8dd; --muted: #9a9385;
+      --line: #5b564b; --accent: #ddd6c4;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #1b1a17; --card: #262420; --ink: #ece8dd; --muted: #9a9385;
+    --line: #5b564b; --accent: #ddd6c4;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--ground); color: var(--ink); margin: 0;
+    font-family: "Gowun Dodum", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    line-height: 1.75; word-break: keep-all;
+    padding: 2.5rem 1.2rem 5rem;
+  }
+  main {
+    max-width: 62ch; margin: 0 auto;
+    background: var(--card); border: 2px solid var(--line); border-radius: 22px;
+    padding: 2rem 1.8rem 2.4rem;
+  }
+  h1 { font-family: "Jua", sans-serif; font-size: 1.6rem; margin: 0 0 0.2rem; color: var(--accent); }
+  .when { color: var(--muted); font-size: 0.85rem; margin: 0 0 1.8rem; }
+  h2 {
+    font-size: 1.05rem; margin: 2rem 0 0.5rem;
+    padding-top: 1.4rem; border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; margin-top: 0; }
+  p { margin: 0 0 0.8rem; }
+  ul { margin: 0 0 0.9rem; padding-left: 1.2rem; }
+  li { margin: 0 0 0.4rem; }
+  b { color: var(--accent); }
+  .lead {
+    font-size: 1.05rem; background: var(--ground); border-radius: 14px;
+    padding: 1rem 1.2rem; margin: 0 0 1.8rem;
+  }
+  table { width: 100%; border-collapse: collapse; margin: 0.6rem 0 1rem; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 0.55rem 0.5rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 0.8rem; letter-spacing: 0.05em; color: var(--muted); font-weight: normal; }
+  td:first-child { white-space: nowrap; }
+  .foot { color: var(--muted); font-size: 0.85rem; margin-top: 2rem; }
+  code { font-size: 0.9em; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>개인정보처리방침</h1>
+  <p class="when">슬슬 (Seulseul) · 2026년 9월 8일 시행</p>
+
+  <p class="lead"><b>슬슬은 개인정보를 수집하지 않습니다.</b>
+    회원가입이 없고, 서버가 없으며, 앱이 만든 것은 전부 사용자의 기기 안에만 남습니다.</p>
+
+  <h2>1. 수집하는 정보</h2>
+  <p><b>없습니다.</b> 이름·이메일·전화번호·위치·연락처·사진 등 어떤 개인정보도 요구하지 않고,
+    사용 기록이나 광고 식별자도 수집하지 않습니다.</p>
+
+  <h2>2. 기기에 저장되는 것</h2>
+  <p>앱을 쓰면 아래가 <b>기기 안에만</b> 저장됩니다. 앱을 지우면 함께 사라집니다.</p>
+  <ul>
+    <li>사용자가 만든 일정과 계획(이름·소요시간·마감 시각·순서)</li>
+    <li>화면 설정(밝게·어둡게, 팔레트, 알림 켬/끔)</li>
+    <li>진행 상태(시작한 시각, 끝낸 일정)</li>
+  </ul>
+  <p>이 값들은 안드로이드의 앱 전용 저장 공간에 보관되며, 다른 앱이 읽을 수 없습니다.</p>
+
+  <h2>3. 외부로 보내는 정보</h2>
+  <p><b>없습니다.</b> 슬슬은 <b>인터넷 권한(<code>android.permission.INTERNET</code>)조차 요청하지 않습니다.</b>
+    앱에는 서버로 무엇을 보낼 수단 자체가 없습니다. 글꼴과 아이콘도 앱 안에 들어 있어
+    실행 중 아무것도 내려받지 않습니다.</p>
+
+  <h2>4. 광고와 분석</h2>
+  <p>광고를 넣지 않았고, 분석 도구(예: Google Analytics, Firebase)도 쓰지 않습니다.
+    제3자에게 제공하는 정보가 없으므로 위탁·국외 이전도 없습니다.</p>
+
+  <h2>5. 요청하는 권한</h2>
+  <table>
+    <tr><th>권한</th><th>왜 필요한가</th></tr>
+    <tr>
+      <td>알림</td>
+      <td>시작할 시각이 되면 한 번 알려 주고, 진행 중에는 상태바에 지금 하는 일정을 보여 줍니다.
+        거부해도 앱의 나머지 기능은 그대로 씁니다.</td>
+    </tr>
+    <tr>
+      <td>정확한 알람</td>
+      <td>「몇 시에 시작」이 이 앱의 전부라, 알림이 몇 분 밀리면 그 말이 거짓이 됩니다.
+        정해진 시각에 정확히 울리기 위해서만 씁니다.</td>
+    </tr>
+    <tr>
+      <td>기기 부팅 완료</td>
+      <td>휴대폰을 껐다 켜도 예약해 둔 알림이 살아 있게 하기 위해서입니다.</td>
+    </tr>
+  </table>
+  <p>위치·연락처·사진·마이크·카메라 권한은 요청하지 않습니다.</p>
+
+  <h2>6. 백업</h2>
+  <p>설정의 「백업」은 사용자가 직접 눌렀을 때만 동작합니다.
+    저장된 값을 <b>글자로 만들어 기기의 클립보드에 복사</b>할 뿐이며,
+    그 글자를 어디에 붙여 넣을지는 전적으로 사용자가 정합니다.
+    앱이 자동으로 어딘가에 올리는 일은 없습니다.</p>
+
+  <h2>7. 만 14세 미만 아동</h2>
+  <p>아동을 대상으로 만든 앱이 아니며, 나이를 포함해 어떤 개인정보도 수집하지 않습니다.</p>
+
+  <h2>8. 방침이 바뀔 때</h2>
+  <p>내용이 바뀌면 이 페이지를 고치고 맨 위의 시행일을 함께 바꿉니다.
+    수집하는 정보가 생기는 변경이라면 앱 안에서도 알려 드립니다.</p>
+
+  <h2>9. 문의</h2>
+  <p>이 방침이나 개인정보 처리에 대해 궁금한 점이 있으면
+    <b>Google Play 스토어의 슬슬 페이지에 적힌 개발자 이메일</b>로 연락해 주세요.</p>
+
+  <p class="foot">슬슬 — 시작할 시간</p>
+</main>
+</body>
+</html>
